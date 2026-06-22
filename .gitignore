@@ -6,10 +6,16 @@ __pycache__/
 .ipynb_checkpoints/
 *.egg-info/
 
-# type-checker / linter caches
+# caches
 .mypy_cache/
 .ruff_cache/
 
-# uv lockfile is kept; build artefacts are not
+# build artefacts
 build/
 dist/
+
+# editor / tool configs
+.claude/
+
+# keep no PDFs in the repo
+*.pdf
